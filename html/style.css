@@ -10,11 +10,7 @@ html, body{
 }
 
 body{
-	display: grid;
-	grid-template-rows: 1fr 50px;
-	background: linear-gradient(to bottom, #7927b2, #fb3182);
-	justify-content: center;
-	align-items: center;
+	background: linear-gradient(to bottom, #000000, #c91414);
 }
 
 .title {
@@ -27,37 +23,55 @@ body{
 	display: block;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 15px;
 }
 
 .titleHead {
 	font-size: 90px;
 	font-weight: bold;
-	background: linear-gradient(to right, #7927b2, #fb3182);
+	background: linear-gradient(to right, #000000, #c91414);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	max-width: 700px;
 	text-transform: uppercase;
 	line-height: .80;
-
 }
 
 .about1 {
-	font-family: 'Barlow', sans-serif;
-	font-style: italic;
-	font-size: 20px;
 	text-align: center;
+	background-color: white;
+	display: block;
+	width: 500px;
+	margin: auto;
+	border-radius: 5px;
+	margin-bottom: 15px;
 }
 
-.about1 p {
+.about1 h2 {
+	font-family: 'Barlow', sans-serif;
+	font-style: italic;
+	font-size: 35px;
+	display: block;
+	width: 200px;
+	justify-content: center;
+	margin: auto;
+	padding: 20px;
+}
+
+.about2 {
+	background-color: rgba(255,255,255,0.5);
+	height: 75px;
+	width: 700px;
+	margin: auto;
+}
+.about2 p {
 	font-family: 'Mulish', sans-serif;
 	font-style: normal;
 	text-align: left;
 	display: block;
-	background-color: antiquewhite;
 	height: 75px;
 	width: 700px;
 	padding: 20px;
-	margin: auto;
 }
   
 #myImg:hover {opacity: 0.7;}
@@ -72,6 +86,8 @@ body{
 	border-radius: 5px;
 	cursor: pointer;
 	transition: 0.3s;
+	left: 350px;
+	top: 450px;
 }
 
 .foto1div p {
@@ -82,10 +98,9 @@ body{
 	width: 150px;
 	margin: auto;
 	padding: 10px 20px;
-
 }
 
 .foto1div p.smalltxt {
 	color: darkgray;
 	text-align: center;
-} */
+}
