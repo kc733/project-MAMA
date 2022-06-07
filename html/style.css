@@ -1,11 +1,91 @@
-.TitleHead {
-	font-family: "Times New Roman";
-	font-size: 50px;
-	color: red;
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Barlow', sans-serif;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	display: grid;
+	grid-template-rows: 1fr 50px;
+	background: linear-gradient(to bottom, #7927b2, #fb3182);
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	width: 90%;
+	height: 250px;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 30px;
+	background: #fff;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+.titleHead {
+	font-size: 90px;
+	font-weight: bold;
+	background: linear-gradient(to right, #7927b2, #fb3182);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	max-width: 700px;
+	text-transform: uppercase;
+	line-height: .80;
+
 }
 
 .about1 {
-	font-size: 30px;
-
-	
+	font-family: 'Barlow', sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
 }
+
+.about1 p {
+	font-family: 'Mulish', sans-serif;
+	font-style: normal;
+	text-align: left;
+	display: block;
+	background-color: antiquewhite;
+	height: 75px;
+	width: 700px;
+	padding: 20px;
+	margin: auto;
+}
+  
+#myImg:hover {opacity: 0.7;}
+
+.foto1div img {
+	display: block;
+	margin: auto;
+	padding: 15px 20px 20px;
+	width: 150px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.foto1div p {
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	display: block;
+	background-color: white;
+	width: 150px;
+	margin: auto;
+	padding: 10px 20px;
+
+}
+
+.foto1div p.smalltxt {
+	color: darkgray;
+	text-align: center;
+} */
